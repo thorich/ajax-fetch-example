@@ -6,6 +6,7 @@ class Person {
     this.createdAt = createdAt
     this.jobTitle = jobTitle
     this.description = description
+    this.element = this.createContainer()
   }
 
   createContainer() {

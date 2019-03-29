@@ -25,9 +25,9 @@ function createListElements(arr) {
 
   content.innerHTML = ''
 
-  const persons = arr.map(data => new Person(data).createContainer())
+  const persons = arr.map(data => new Person(data))
 
-  persons.forEach(el => {
-    content.appendChild(el)
+  persons.forEach(person => {
+    content.appendChild(person.element)
   })
 }
