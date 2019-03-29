@@ -1,0 +1,16 @@
+body {
+  background: mediumaquamarine;
+}
+#content {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0;
+}
+.list-item {
+  background: white;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+}
